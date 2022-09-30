@@ -12,7 +12,7 @@ import com.facebook.react.bridge.ReactMethod;
 import java.util.Map;
 import java.util.HashMap;
 
-public class CalculatorModule extends ReactContextBaseJavaModule {
+public class CalculatorModule extends NativeCalculatorSpec {
 
     public static String NAME = "RTNCalculator";
 

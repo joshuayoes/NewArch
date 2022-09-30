@@ -9,6 +9,8 @@ import com.facebook.react.TurboReactPackage;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CalculatorPackage extends TurboReactPackage {
 

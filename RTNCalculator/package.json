@@ -27,7 +27,10 @@
     "url": "https://github.com/joshuayoes/rtn-calculator/issues"
   },
   "homepage": "https://github.com/joshuayoes/rtn-calculator#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.1"
+  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -37,7 +40,10 @@
     "type": "modules",
     "jsSrcsDir": "js",
     "android": {
-      "javaPackageName": "com.calculator"
+      "javaPackageName": "com.RTNCalculator"
     }
+  },
+  "resolutions": {
+    "glob": "7.2.0"
   }
 }
